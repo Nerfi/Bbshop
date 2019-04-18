@@ -5,3 +5,14 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+puts 'creating shopps '
+10.times do
+shop = Shop.new(
+  name: "bshop",
+  description: "very good",
+  price: "10".to_i
+  )
+shop.save!
+end
+puts 'finished'
