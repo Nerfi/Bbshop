@@ -1,2 +1,0 @@
-class Bshop < ApplicationRecord
-end
